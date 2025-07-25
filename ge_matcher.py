@@ -37,6 +37,7 @@ import sys
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Set
 
+sku = st.text_input("Enter competitor SKU:")
 
 @dataclass
 class Product:
